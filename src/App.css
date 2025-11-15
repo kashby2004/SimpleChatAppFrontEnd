@@ -1,0 +1,49 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 20px
+}
+
+.login-row {
+  padding: 10px;
+  background: rgb(238, 238, 238);
+  display: flex;
+}
+
+.login-row label{
+  padding-right: 10px;
+}
+
+.messaging-container{
+  width: 700px;
+}
+
+.messages{
+  width: 100%;
+  border: 1px solid grey;
+  height: 500px;
+  overflow: scroll;
+}
+
+.all-conversations{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.all-conversations td{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.message-wrapper{
+  padding: 10px;
+}
+
+.message{
+  border: 2px solid rgb(202,202,202);
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  display: inline-block;
+}
